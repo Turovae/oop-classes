@@ -46,3 +46,6 @@
     1. Undead: 25/25
     1. Zombie: 40/10
     1. Daemon: 10/40
+
+---
+[![Build status](https://ci.appveyor.com/api/projects/status/rk8t7j3rcif4l7u2?svg=true)](https://ci.appveyor.com/project/Turovae/oop-classes)
