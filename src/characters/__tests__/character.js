@@ -24,8 +24,8 @@ test.each(incorrectNames)(
   },
 );
 
-// test('incorect assign type', () => {
-//   expect(() => {
-//     new Character('name', 'BlaBla');
-//   }).toThrow('Некорректный тип персонажа');
-// });
+test('incorect assign type', () => {
+  expect(() => {
+    new Character('name', 'BlaBla');
+  }).toThrow('Некорректный тип персонажа');
+});
