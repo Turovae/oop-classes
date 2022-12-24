@@ -5,7 +5,7 @@ export default class Character {
     }
     const characterTypes = ['Bowman', 'Swordsman', 'Magician', 'Daemon', 'Undead', 'Zombie'];
     if (!characterTypes.includes(type)) {
-      throw new Error();
+      throw new Error('Некорректный тип персонажа');
     }
     this.name = name;
     this.type = type;
