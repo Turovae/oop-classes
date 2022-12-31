@@ -16,11 +16,10 @@ test.each(
   },
 );
 
-const incorrectNames = [
+test.each([
   ['to short name', 'a'],
   ['to long name', '123456789ab'],
-];
-test.each(incorrectNames)(
+])(
   ('testing creating instance class Character with %s'),
   (_, name) => {
     expect(() => {
